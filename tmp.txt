@@ -1,6 +1,10 @@
 AAAA
 BBBB
 CCCC
+<<<<<<< HEAD
 1111 # ADDING by a
+=======
+2222 # ADDING by b
+>>>>>>> b
 DDDD
 EEEE
