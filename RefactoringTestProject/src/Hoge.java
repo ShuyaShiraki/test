@@ -2,12 +2,16 @@
 public class Hoge {
 
 	public static void main(String[] args) {
-		Hoge hoge = new Hoge();
-		hoge.HelloWorld();
+		HelloWorldPrinter hp = new HelloWorldPrinter();
+		hp.HelloWorld();
 	}
 
-	public void HelloWorld() {
+}
+
+
+class HelloWorldPrinter{
+
+	void HelloWorld(){
 		System.out.println("Hello World");
 	}
-
 }
